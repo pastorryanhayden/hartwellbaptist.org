@@ -1,0 +1,21 @@
+---
+---
+<div class="info-box">
+<div class="service-times">
+            <ul class="menu vertical">
+                {{site.service_schedule}}
+            </ul>
+    </div><!--/service-times-->
+    <div class="contact">
+            <p>
+                {{site.address}} <br>
+                {{site.phone}} • {{site.email}} <br>
+                {% if site.facebook %}
+                <a href="{{site.facebook}}"><i class="fi-social-facebook"></i></a>
+                 {% endif %} 
+                 {% if site.twitter %}
+                 <a href="{{site.twitter}}"><i class="fi-social-twitter"></i></a>
+                 {% endif %}
+            </p>
+</div><!--/contact-->
+</div>
