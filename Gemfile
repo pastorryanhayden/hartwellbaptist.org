@@ -1,1 +1,1 @@
-gem "jekyll-assets"
+gem "jekyll"
