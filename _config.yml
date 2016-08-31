@@ -61,7 +61,7 @@ exclude:
   - gulpfile.js 
   - bower_components
 keep_files:
-  - css
+  - assets/css
 
 
 page_gen:
