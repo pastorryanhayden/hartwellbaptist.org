@@ -557,7 +557,7 @@ var updated = false;
 
       // home 
 
-    home('Main_Stuff').select({
+    home('Home_Page').select({
         maxRecords: 1,
       //Formula to how to get data
       // help https://support.airtable.com/hc/en-us/articles/203255215-Formula-Field-Reference
